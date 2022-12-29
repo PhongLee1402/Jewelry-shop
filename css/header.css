@@ -1,0 +1,26 @@
+header{
+    /* bóp các phần tử content trong thẻ header là 20px */
+    padding: 20px;
+    /* background color của thẻ header là màu #dedede */
+    background-color: #dedede;
+}
+select{
+    /* tắt phần viền của thẻ select */
+    border: none;
+    /* cho màu của phần viền như của header */
+    background-color: #dedede;
+    /* tắt phần outline sau khi click vào phần select  */
+    outline: none;
+}
+.header__top__right p{
+    /* khi hover vào thẻ p bên phải thì sẽ hiện bàn tay con trỏ click vào */
+    cursor: pointer;
+}
+.header__bottom img{
+    /* cho chiều rộng của logo chính là 75px */
+width: 75px;
+}
+.header__bottom__menu li{
+    /* tạo khoảng cách giữa các thẻ li trên thanh menu */
+    padding: 20px;
+}

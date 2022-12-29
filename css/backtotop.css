@@ -1,0 +1,14 @@
+/*chỉnh phần nút cuộn trang lên nằm bên góc bên phải của trang wed và thêm 1 số thuộc tính để trang trí kết hợp với scoll beharvor được đặt ở phần body để tạo hiệu ứng trượt lên 1 cách mượt mà */
+.BackToTop i{
+position: fixed;
+right: 45px;
+bottom: 45px;
+border: 1px solid black;
+width: 40px;
+height: 40px;
+line-height: 40px;
+text-align: center;
+background-color: white;
+border-radius: 50%;
+
+}

@@ -1,0 +1,153 @@
+/* GOLBAL */
+/* reset page để đưa các phần tử trở về mặc định trước khi code */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth ;
+}
+/* GOLBAL */
+/* class section được thêm vào các thẻ cha lớn nhằm mục đích giản cách các dòng nội dung */
+.section{
+    padding: 70px 0px;
+}
+
+/* header */
+
+
+
+/* owl-carousel */
+/* chỉnh phần hình ảnh khi sử dụng thư viện owl-carousel*/
+.owl-carousel  .owl-item img{
+height: 500px;
+display: block;
+width: 100%;
+position: relative;
+}
+/* chỉnh hai thanh nav để cho nó nằm ngang hình */
+.owl-prev{
+    position: absolute;
+    left: 0px;
+    top: 30%;
+}
+.owl-next{
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: transparent;
+}
+.owl-next span{
+    font-size: 100px;
+    color:white;
+}
+.owl-prev span{
+    font-size: 100px;
+    color:white;
+}
+/* owlcarousel */
+
+
+/* banner */
+.Featured__products h2{
+    /* căn giữa phần tiêu đề */
+text-align: center;
+/* căn lề trên dưới của phần tử */
+margin: 20px 0px;
+/* viết hoa các phần tử  */
+text-transform: uppercase;
+}
+.Featured__products__item img{
+    /* cho chiều rộng của hình là 100% */
+    width: 100%;
+    /* chiều cao của hình là 100% */
+    height: 100%;
+    /* chuyển thuộc tính của hình ảnh từ inline sang block */
+    display: block;
+    /* cho hình ảnh vừa vặn với khuông của thẻ cha */
+    object-fit: cover;
+}
+.Featured__products__items{
+    /* đặt phần hiển thị các thẻ div ở dạng lưới */
+    display: grid;
+    /*chia các phần tử thanh 3 cột mỗi cột 1 phần tử nếu hơn thì xuống hàng */
+    grid-template-columns: repeat(3,1fr);
+    /* khoảng cách trên dưới trái phải 30px cho các thẻ div được chia lưới */
+    gap: 30px;
+}
+/* banner */
+.product__item__content img{
+    /* cho hình chiều rộng là 100% */
+width: 100%;
+/* chiều cao là 300px so với thẻ cha */
+height: 300px;
+/* làm chậm trong 0.5s */
+transition: all .5s;
+}
+.product__item__content .row .col:hover img{
+    /* sau khi hover vào img thì hình ảnh sẽ scale ra 1.3 lần */
+    transform: scale(1.3);
+
+}
+.product__item__content a{
+    /* tắt phần under-line của thẻ a */
+    text-decoration: none;
+    /* cho nó có màu đen */
+    color:black;
+}
+.product__items h2{
+    /* căn giữa phần tử tiêu đề với điều kiện h2 width = 100% */
+    text-align: center;
+}
+.product__items nav{
+    /* căn giữa các phần tử trong thẻ nav */
+    text-align: center;
+}
+.product__items nav ul li{
+    /* chuyển thuộc tính của thẻ li sang display inline để cho các thẻ li nằm trên cùng 1 hàng */
+    display: inline;
+    /* padding các phần tử li để tạo khoảng cách đều thay vì sử dụng margin */
+    padding: 0px 20px;
+}
+figure{
+    /* những thẻ con của figure khi tràn ra ngoài sẽ bị biến mất */
+    overflow: hidden;
+}
+
+.product__items a{
+    /* tắt phần under-line của thẻ a */
+    text-decoration: none;
+    /* đặt cho thẻ a có màu xám */
+    color:grey;
+    /* viết in hoa các thẻ a được chọn */
+    text-transform: uppercase;
+}
+.product__items a:hover{
+    /* sau khi hover thẻ a sẽ đổi màu */
+color:#947a51;
+}
+.product__items li.active a{
+    /* thẻ li nào chứa active thì thẻ a sẽ đổi màu theo chỉ định */
+color:#947a51;
+text-decoration: underline;
+}
+.inner button{
+    /* đặt thuộc tính cho nút button */
+    background-color:#947a51;
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.inner span{
+    /* cho thẻ span bóp phần tử content vào 20px */
+    padding: 20px;
+}
+.inner {
+    /* các phần tử trong thẻ cha sẽ được căn giữa */
+    text-align: center;
+}

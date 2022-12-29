@@ -1,0 +1,14 @@
+form{
+    /* dàn hàng ngang các phần tử trong form */
+    display: flex;
+    /* cho các phần tử con dàn thành cột*/
+    flex-direction: column;
+    /* căn giữa các văn bản trong các phần tử */
+    text-align: center;
+}
+form input{
+    /* cho thẻ input có chiều rộng là 790px */
+    width:790px;    
+    /* căn trên dưới trái phải là 10px10px */
+    margin: 10px ;
+}

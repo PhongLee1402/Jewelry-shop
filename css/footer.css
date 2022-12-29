@@ -1,0 +1,19 @@
+footer{
+    /* cho chiều cao cố định của phần footer là 200px */
+    height: 200px;
+
+}
+footer .footer__content a{
+    /* đặt cho các thẻ a trong thẻ được gọi có màu xám */
+    color:grey;
+    /* tắt phần under-line trong thẻ a */
+    text-decoration: none;
+}
+footer nav ul li{
+    /* tắt type list của thẻ li */
+    list-style: none;
+}
+footer nav ul {
+    /* chỉnh thẻ ul về mặc định vì khi sử dụng bootrap sẽ bị gán 1 thuộc tính nhất định */
+padding: 0px;
+}
